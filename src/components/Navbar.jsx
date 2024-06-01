@@ -1,8 +1,8 @@
 import logo from '../assets/JKlogo.png';
 import { FaLinkedin } from 'react-icons/fa6';
 import { FaGithub } from 'react-icons/fa';
-import { FaInstagram } from 'react-icons/fa6';
-import { FaDiscord } from 'react-icons/fa';
+import { FaDiscord } from 'react-icons/fa6';
+import { FaGoogle } from 'react-icons/fa';
 
 const Navbar = () => {
   return (
@@ -14,7 +14,7 @@ const Navbar = () => {
         <a href='https://www.linkedin.com/in/jayanth-krishnan-a8bb32264' target='_blank'><FaLinkedin /></a>
         <a href='https://www.github.com/JayanthKrishnan' target='_blank'><FaGithub /></a>
         <FaDiscord />
-        <FaInstagram />
+        <a href='mailto: jayanthpalani28@gmail.com' ><FaGoogle /></a>
       </div>
     </nav>
   )

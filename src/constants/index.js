@@ -47,13 +47,15 @@ export const EDUCATION = [
 export const PROJECTS = [
   {
     title: "Youtube - Clone",
+    link: "https://github.com/JayanthKrishnan/Youtube-Clone.git",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+      "A simple web page that replicates the core user interface of YouTube's homepage, allowing users to browse and watch videos.",
     technologies: ["HTML", "CSS", "React", "JavaScript"],
   },
   {
     title: "voteZenith",
+    link: "https://github.com/JayanthKrishnan/voteZenith.git",
     image: project2,
     description:
       "Built a decentralized application (DApp) on Ethereum blockchain using Solidity for smart contracts, Truffle development environment, and Ganache local network.",
@@ -61,6 +63,7 @@ export const PROJECTS = [
   },
   {
     title: "Personal Portfolio Website",
+    link: "https://github.com/JayanthKrishnan/react-portfolio.git",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
